@@ -11,7 +11,7 @@ app.get('/login', (req, res)=>{
     res.send('<h1>Please login here</h1>')
 })
 
-app.get('update', (req, res)=>{
+app.get('/update', (req, res)=>{
     res.send("This is update")
 })
 
